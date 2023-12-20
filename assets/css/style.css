@@ -1,0 +1,33 @@
+.nav-clr{ background: linear-gradient(to bottom, rgb(89, 197, 132), #000);
+}
+
+.ftr-clr{ background: linear-gradient(to bottom, #000,rgb(89, 197, 132));
+}
+
+.bg-secondary{
+    background-color: #000 !important;
+}
+.nav-link:hover{
+    background-color: #5dac73;
+}
+
+.carousel .carousel-inner{
+    height:600px;
+}
+.carousel-inner .carousel-item img{
+    min-height:300px;
+    object-fit:cover;
+}
+
+@media(max-width:768px){
+    .carousel .carousel-inner{
+        height:auto;
+    }
+}
+
+.aboutUs{
+    background-color: #99b492;
+    border-radius: 2rem;
+    padding: 40px;
+    font-size: 1.2rem;
+}
